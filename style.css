@@ -5,9 +5,13 @@
 }
 
 body {
-    background-color: #0e0f14fb;
+    background-color: #191a24fb;
     font-family: Arial , sans-serif;
     color: #ffffff;
+
+    background:
+        radial-gradient(circle at top, #184e72, transparent 45%),
+        #090d16;
 }
 
 .container {
@@ -21,7 +25,7 @@ body {
 .login-card {
     width: 100%;
     max-width: 400px;
-    background-color: #06070cfb;
+    background-color: transparent;
     padding: 35px;
     border: 1px solid #cfcccc;
     border-radius: 16px;
@@ -43,7 +47,7 @@ body {
 }
 
 .login-card p {
-    color: #00eeff;
+    color: #999c9c;
     text-align: center;
     font-size: 16px;
     margin-bottom: 5px;
@@ -55,27 +59,30 @@ body {
 }
 
 .login-card label {
-   font-size: 18px;
+   font-size: 15px;
    margin-bottom: 5px;
+   color: #0093f5;
 }
 
 .login-card input {
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid #00eeff;
+    border: 1px solid #0093f5;
     background-color: #2a2a36;
     color: #ffffff;
     outline: none;
 }
 
 .login-card button {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     border-radius: 8px;
     border: none;
     background-color: #0093f5;
     font-size: 16px;
     transition: 0.3s ease;
+    width: 100%;
 }
 
 .login-card button:hover {
@@ -92,5 +99,14 @@ body {
 .login-card a:hover {
     color: #00eeff;
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #999c9c;
+    border-top: 1px solid #999c9c;
+    padding: 20px;
 }
 
